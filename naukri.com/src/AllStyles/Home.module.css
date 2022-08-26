@@ -1,0 +1,124 @@
+.top1{
+background-image: url("https://static.naukimg.com/s/5/105/i/dashboardbg.png") ;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+height: 250px;
+width: 100%;
+display: flex;
+margin: auto;
+justify-content: center;
+
+}
+
+.tophead{
+    text-align: start;
+}
+
+.tophead>h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.topinput>input{
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+}
+.topinput>button{
+    width: 120px;
+    height: 55px;
+    background-color: #4A90E2;
+    border: none;
+}
+.topinput>button:hover{
+    cursor: pointer;
+    background-color: #6aa5e7;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+   
+}
+.second2>button{
+    display: flex;
+   
+}
+.second3>button:hover{
+    width: 190px;
+    height: 80px;
+   
+}
+.second3>button>h2{
+    font-size: 16px;
+    font-weight: 500;
+   
+    
+}
+
+.second3>button>img{
+    width: 40px;
+}
+
+
+.second2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   
+}
+.second3{
+    display: flex;
+    margin: auto;
+    gap: 20px;
+   
+}
+
+.second3>button{
+    display: flex;
+    margin: auto;
+    width: 180px;
+    height: 70px;
+    border: none;
+  
+    align-items: center;
+    gap: 9px;
+    background-color: white;
+    border-radius: 15px 4px 15px 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-top: 10px;
+}
+.forlink{
+    text-decoration: none;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+   margin-top: 100px;
+    background-color: #fef9f4;
+    width: 80%;
+    height: 450px;
+    border-radius: 30px 5px 30px 5px;
+}
+.third>div{
+    width: 330px;
+    text-align: left;
+    
+    margin-left: 10%;
+}
+
+.third>div>img{
+    width: 100px;
+    height: 100px;
+}
+.third>div>h3{
+    font-size: 22px;
+    font-weight: 200;
+    color: #8292b4;
+}
+
+
