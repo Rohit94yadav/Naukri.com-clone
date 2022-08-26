@@ -40,13 +40,21 @@ justify-content: center;
 .second{
     display: flex;
     flex-direction: column;
+   
 }
 .second2>button{
     display: flex;
+   
+}
+.second3>button:hover{
+    width: 190px;
+    height: 80px;
+   
 }
 .second3>button>h2{
     font-size: 16px;
     font-weight: 500;
+   
     
 }
 
@@ -59,12 +67,13 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     margin: auto;
-
+   
 }
 .second3{
     display: flex;
     margin: auto;
     gap: 20px;
+   
 }
 
 .second3>button{
@@ -73,6 +82,7 @@ justify-content: center;
     width: 180px;
     height: 70px;
     border: none;
+  
     align-items: center;
     gap: 9px;
     background-color: white;
@@ -80,6 +90,35 @@ justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     margin-top: 10px;
 }
+.forlink{
+    text-decoration: none;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+   margin-top: 100px;
+    background-color: #fef9f4;
+    width: 80%;
+    height: 450px;
+    border-radius: 30px 5px 30px 5px;
+}
+.third>div{
+    width: 330px;
+    text-align: left;
+    
+    margin-left: 10%;
+}
 
+.third>div>img{
+    width: 100px;
+    height: 100px;
+}
+.third>div>h3{
+    font-size: 22px;
+    font-weight: 200;
+    color: #8292b4;
+}
 
 
