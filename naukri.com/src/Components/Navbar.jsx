@@ -30,7 +30,7 @@ export default function Navbar() {
                             <a>Job By Designation</a>
                             <a>Job By Company</a>
                             <a>Job By Catagory</a>
-                            <a>Browse All Jobs</a>
+                           <Link to="./alljobs"> <a>Browse All Jobs</a></Link>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ export default function Navbar() {
                 </div>
 
                 <div className={styles.dropdown}>
-                    <button className={styles.dropbtn}>TOOLS</button>
+                    <button className={styles.dropbtn}>MORE</button>
                     <div className={styles.dropdowncontent}>
                         <div>
                             <div>

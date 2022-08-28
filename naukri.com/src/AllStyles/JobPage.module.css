@@ -20,13 +20,14 @@
         margin-bottom: 10px;
     }
     
-    .topinput>input{
+    .topinput>form>input{
         width: 500px;
         height: 35px;
         padding: 10px;
         border: none;
+
     }
-    .topinput>button{
+    .topinput>form>button{
         width: 120px;
         height: 55px;
         background-color: #4A90E2;
@@ -89,4 +90,58 @@
     font-weight: 300;
     color: rgb(87, 86, 86);
 }
+.forlink{
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+    
+}
 
+.applybtn{
+    width: 200px;
+    height: 35px;
+    padding: 6px;
+    color: white;
+    background-color: rgb(97, 97, 241);
+    border: none;
+    margin-left: 430px;
+}
+
+.description{
+    display: flex;
+    
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+    width: 60%;
+}
+.description1{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 300;
+}
+/* .description2{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    width: 60%;
+    text-align: left;
+    margin-top: 20px;
+} */
+
+.allbuttons{
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    padding: 30px;
+    gap: 6%;
+    
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.allbuttons>button{
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    border: 0.5px solid rgb(201, 192, 192);
+}
