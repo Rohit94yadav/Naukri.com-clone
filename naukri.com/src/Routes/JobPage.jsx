@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "../AllStyles/JobPage.module.css";
 
 export default function JobPage() {
@@ -12,7 +13,7 @@ export default function JobPage() {
 
     const loadUserData = async () => {
         return await axios
-            .get("http://localhost:3000/posts")
+            .get("http://localhost:3000/data")
             .then((res) => setdata(res.data))
             .catch((err) => console.log(err));
     };
@@ -21,7 +22,7 @@ export default function JobPage() {
 
     const handleSearch = async(e) => {
         e.preventDefault();
-        return await axios.get(`http://localhost:3000/posts?q=${value}`)
+        return await axios.get(`http://localhost:3000/data?q=${value}`)
         .then((res)=>{
             setdata(res.data)
             setValue("");
@@ -52,6 +53,7 @@ export default function JobPage() {
             </div>
             <div>
                 {data.map((el) => (
+                    <Link className={styles.forlink} to={`/jobview/${el.id}`}>
                     <div key={el.id} className={styles.main}>
                         <div >
                             <div className={styles.maindiv}>
@@ -83,9 +85,10 @@ export default function JobPage() {
 
 
                     </div>
-
+                    </Link>
 
                 ))}
+                
 
                 <div>
 
